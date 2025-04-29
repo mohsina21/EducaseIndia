@@ -13,7 +13,7 @@ function Profile() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="w-full bg-white border-b px-6 py-4 shadow-sm">
-        <h2 className="text-lg md:text-xl font-semibold text-gray-800 outline-none">Account Settings</h2>
+        <h2 className="text-lg md:text-xl font-semibold text-gray-800 ">Account Settings</h2>
       </div>
 
       <div className="w-full px-4 py-6 flex justify-center">
@@ -25,8 +25,8 @@ function Profile() {
                 alt={user.name}
                 className="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover"
               />
-              <div className="absolute bottom-0 right-0 bg-white p-1 rounded-full shadow outline-none">
-                <Camera size={16} className="text-purple-600 outline-none" />
+              <div className="absolute bottom-0 right-0 bg-white p-1 rounded-full shadow ">
+                <Camera size={16} className="text-purple-600 " />
               </div>
             </div>
 
