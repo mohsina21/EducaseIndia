@@ -25,8 +25,8 @@ function Profile() {
                 alt={user.name}
                 className="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover"
               />
-              <div className="absolute bottom-0 right-0 bg-white p-1 rounded-full shadow">
-                <Camera size={16} className="text-purple-600" />
+              <div className="absolute bottom-0 right-0 bg-white p-1 rounded-full shadow outline-none">
+                <Camera size={16} className="text-purple-600 outline-none" />
               </div>
             </div>
 
@@ -43,3 +43,4 @@ function Profile() {
 }
 
 export default Profile;
+
