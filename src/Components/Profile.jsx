@@ -13,7 +13,7 @@ function Profile() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="w-full bg-white border-b px-6 py-4 shadow-sm">
-        <h2 className="text-lg md:text-xl font-semibold text-gray-800">Account Settings</h2>
+        <h2 className="text-lg md:text-xl font-semibold text-gray-800 outline-none">Account Settings</h2>
       </div>
 
       <div className="w-full px-4 py-6 flex justify-center">
